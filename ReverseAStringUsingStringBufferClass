@@ -1,0 +1,16 @@
+package JavaBasicPrograms;
+
+public class ReverseAStringUsingStringBufferClass {
+
+	// StringBuffer is mutable in java
+	// StringBuffer does have reverse function methods.
+
+	public static void main(String[] args) {
+
+		String p = "Groot";
+		StringBuffer z = new StringBuffer(p);
+		z.reverse();
+		System.out.println(z);
+	}
+
+}
